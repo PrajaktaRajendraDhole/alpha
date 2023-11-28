@@ -1,0 +1,399 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(https://html5up.net/uploads/demos/alpha/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:  #f5f5f5;
+}
+#left h1{
+    color: white;
+    font-size: 1rem;
+}
+#left h1 span{
+    font-weight: 100;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.5%;
+}
+
+#cont{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0%;
+
+}
+
+#cont a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    display: block;
+}
+
+#cont button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px soild grey;
+
+
+}
+
+#menu{
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    top:100%;
+    right:0%;
+    padding: 0%;
+    width: 180%;
+    display: none;
+    border-radius: 8px;
+
+}
+  #drop{
+    position: relative;
+} 
+
+#drop:hover #menu{
+    display: block;
+}
+#menu a{
+    color: black;
+    border-bottom: 2px soild black;
+    padding: 10px;
+  
+}
+#menu a:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+#submenu{
+    list-style-type: none;
+    background-color: white;
+    position: absolute;
+    top:40%;
+    right:100%;
+    padding: 0%;
+    width: 100%;
+    display: none;
+    border-radius: 8px;
+
+}
+#subdrop{
+    position: relative;
+} 
+#subdrop:hover #submenu{
+    display: block;
+}
+#submenu a{
+    color: black;
+    border-bottom: 2px soild black;
+    padding: 10px;
+  
+}
+#submenu a:hover{
+    background-color: orange;
+    color: white;
+}
+#alpha {
+
+    /* div chi css
+     display: flex;
+    justify-content: center;
+    background-color: white; */
+    /* width: 40%; */
+
+    margin: auto;
+    text-align: center;
+}
+#alpha h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0px;
+
+}
+#alpha p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#alpha button
+{
+    width: 15%;
+    height: 3rem;
+    border-radius: 5px;
+    color: grey;
+    border: none;
+    margin-right: 1rem;
+    font-size: 17px;
+}
+#alpha #learn{
+    color: white;
+    background-color: transparent;
+   border: 2px solid white;
+   }
+   
+   #mobile{
+
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+
+    padding-top: 2rem;
+    margin-top: 7rem;
+    color: grey;
+
+
+
+   }
+   #mobile h1{
+    font-size: 2rem;
+   }
+   #mobile p{
+    font-size: 1.3rem;
+    border-top: 2px solid rgb(95, 94, 94);
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+   #mobile img{
+    width: 100%;
+    border-radius: 5px;
+   }
+
+   #icon{
+     background-color: white;
+     width: 70%;
+     margin: auto;
+     margin-top: 2rem;
+     border-radius: 5px;
+
+   }
+   #icon div{
+    width:46%;   /* why 46 only */
+    display: inline-block;
+    text-align: center;
+    padding-top: 2rem;
+
+
+   }
+   .fa-bolt-lightning{
+    color:white;
+    font-size: 2rem;
+    border-radius: 90%;
+    background-color: #e89980;
+    padding: 2.2rem 2.3rem;
+   }
+
+   .fa-chart-area{
+    color:white;
+    font-size: 2rem;
+    border-radius: 90%;
+    background-color: #7fcdb8;
+    padding: 2.2rem 2.3rem;
+   }
+   .fa-cloud{
+    color:white;
+    font-size: 2rem;
+    border-radius: 90%;
+    background-color:#90b0ba;
+    padding: 2.2rem 2.3rem;
+   }
+
+   .fa-lock{
+    color:white;
+    font-size: 2rem;
+    border-radius: 90%;
+    background-color:#e9d4a8;
+    padding: 2.2rem 2.3rem;
+   }
+
+   #div1{
+    border-right: 2px solid rgba(128, 128, 128, 0.405);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.404);
+    position: relative;
+    top: 3px;
+    left: 3px;
+   }
+
+   #div4{
+    border-left: 2px solid rgba(128, 128, 128, 0.419);
+    border-top:2px solid rgba(128, 128, 128, 0.401) ;
+   }
+
+#card{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    background-color: white;
+
+}
+#card div{
+    border-color: white;
+    text-align: center;
+    border-radius: 5px;
+    width:48% ;
+}
+/* 
+#card #i1{
+
+
+
+}
+
+#card #i2{
+margin-left: 1rem;
+} */
+
+
+
+#card img{
+    width: 100%;
+    border-radius: 5px;
+}
+#card h1{
+    margin-top: 3rem;
+}
+#card p{
+    margin-bottom: 2rem;
+}
+#card button{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: 3px solid rgba(128, 128, 128, 0.501);
+    margin-bottom: 3rem;
+}
+
+#signup{
+    background-color:  #e89880d2;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+    padding: 4rem 9.5rem;
+}
+#signup h2{
+    font-size: 2.3rem;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+}
+#signup #in{
+text-align: left;
+background-color: rgba(250, 245, 245, 0.216);
+border: 5px;
+padding: 15px 23px;
+border-radius: 6px;
+}
+
+#in::placeholder{
+color: white;
+}
+
+#signup #signcenter{
+    width: 50%;
+    /* background-color: red; */
+    /* margin: auto; */
+    margin-left: 18rem;
+
+
+}
+#signup button{
+padding: 15.5px 18.5px;
+color: #e89880d2 ;
+background-color: white;
+border-radius: 5px;
+margin-left: 10px;
+border: none;
+}
+#signup p{
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+footer #footicon{
+    display: flex;
+    gap:5px;
+    color:rgba(89, 87, 87, 0.491);
+
+   list-style-type: none;
+   padding-left: 40rem;
+
+}
+ .fa-twitter{
+    /* background-color: red; */
+    font-size: 2rem;
+    
+    padding-right: 1.8rem;
+ }
+ .fa-instagram{
+    font-size: 2rem;
+    
+    padding-right: 1.8rem;
+ }
+ .fa-facebook-f{
+    font-size: 2rem;
+    
+    padding-right: 1.8rem;
+
+ }
+ .fa-github{
+    font-size: 2rem;
+    
+    padding-right: 1.8rem;
+ }
+ .fa-baseball{
+    font-size: 2rem;
+    
+    padding-right: 1.8rem;
+ }
+ .fa-google-plus{
+    font-size: 2rem;
+    
+    padding-right: 1.8rem;
+ }
+
+
+
+
+
+footer #foot{
+    display: flex;
+    gap: 2rem;
+     list-style-type: none;
+     font-size: 13.2px;
+     font-family: sans-serif;
+     color: rgba(84, 81, 81, 0.383);
+     padding-bottom: 3rem;
+     padding-top: 1rem;
+     padding-left: 37rem;
+     
+}
+
+
+
+
+
+
+
+
